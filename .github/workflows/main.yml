@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [main]
+    branches: [Main]
 env:
   AWS_REGION: us-east-1
   S3_BUCKET_NAME: staticbucketpushkar

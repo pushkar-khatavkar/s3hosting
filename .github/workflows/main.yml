@@ -1,9 +1,9 @@
 on:
   push:
-    branches: [main]
+    branches: [dev]
 env:
   AWS_REGION: us-east-1
-  S3_BUCKET_NAME: staticbucketpushkar
+  S3_BUCKET_NAME: staticbucketpushkar2
 jobs:
   deploy:
     runs-on: ubuntu-latest

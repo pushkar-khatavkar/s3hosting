@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  S3_BUCKET_NAME: staticbucketpushkar
+  S3_BUCKET_NAME: testnew-pushkarprod
 
 jobs:
   deploy:

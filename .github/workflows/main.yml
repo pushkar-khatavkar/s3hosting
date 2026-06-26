@@ -12,7 +12,7 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: AWS_ACCESS_KEY_ID
+    environment: AWS
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
